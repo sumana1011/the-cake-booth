@@ -53,8 +53,15 @@ export class ProductListComponent implements OnInit {
       price:"Euro 25.99",
       isFav:null,
       inCart:null
+    },
+    {
+      pid:7,
+      image:"assets/images/Choco_Hazelnut_Cake.jpg",
+      name:"Blueberry Oatmeal cake",
+      price:"Euro 25.99",
+      isFav:"True",
+      inCart:"True"
     }
-
 ];
  
 
