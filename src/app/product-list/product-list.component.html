@@ -1,6 +1,5 @@
 <div>
-    <cake-items-app *ngFor="let items of itemDetails" 
-    [itemDetails]="items" 
+    <cake-items-app *ngFor = "let item of itemDetails"
+    [itemDetails] = "item" 
     (addFav)=onAddtoFav($event)></cake-items-app>
-    
 </div>

@@ -76,7 +76,8 @@ img{
     fill:rgb(192, 87, 87) ;
   }
   .favorite.is-favorite-hovering {
-    fill:lightcoral;
+    width: 27px;
+    height: 27px;
   }
 
 .cart{
@@ -88,10 +89,14 @@ img{
 }
 .cart:hover{
     fill:mediumslateblue;
-  }
+}
 
-
-
+.favButton{
+  background-color: transparent;
+  border-color: transparent;
+  border-style: hidden;
+  float : left;
+}
   /* .favorite.is-favorite {
       fill: #37ad79;
   }

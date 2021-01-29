@@ -1,12 +1,15 @@
 import { Component } from '@angular/core';
 import { SigninAppComponent } from './signin-app/signin-app.component';
 import { Router } from '@angular/router';
+import { OnInit } from '@angular/core';
+
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
   
   
@@ -17,6 +20,9 @@ export class AppComponent {
     document.getElementById('Products').innerHTML = blank;
   }
   
+  
 }
+
+
 export class NgbdDropdownForm {
 }

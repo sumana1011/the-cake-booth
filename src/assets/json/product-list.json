@@ -1,0 +1,61 @@
+
+{
+    "itemDetails": [
+        {
+            "pid": 1,
+            "image": "assets/images/Honey_cake.jpg",
+            "name": "Honey Cake",
+            "price": "Euro 25.99",
+            "isFav": false,
+            "inCart": true
+        },
+        {
+            "pid": 2,
+            "image": "assets/images/Pinacolada_Cake.jpg",
+            "name": "Pinacolada cake",
+            "price": "Euro 25.99",
+            "isFav": false,
+            "inCart": true
+        },
+        {
+            "pid": 3,
+            "image": "assets/images/Rainbow_Cake.jpg",
+            "name": "Rainbow Cake",
+            "price": "Euro 25.99",
+            "isFav": false,
+            "inCart": false
+        },
+        {
+            "pid": 4,
+            "image": "assets/images/Maracuja_Cake.jpg",
+            "name": "Maracuja cake",
+            "price": "Euro 25.99",
+            "isFav": false,
+            "inCart": true
+        },
+        {
+            "pid": 5,
+            "image": "assets/images/Vanilla_Cake.jpg",
+            "name": "Vanilla cake",
+            "price": "Euro 25.99",
+            "isFav": false,
+            "inCart": false
+        },
+        {
+            "pid": 6,
+            "image": "assets/images/Choco_Hazelnut_Cake.jpg",
+            "name": "Chocolate Hazelnut Cake",
+            "price": "Euro 25.99",
+            "isFav": false,
+            "inCart": false
+        },
+        {
+            "pid": 7,
+            "image": "assets/images/blueberry_muffins.jpeg",
+            "name": "Blueberry Oatmeal cake",
+            "price": "Euro 25.99",
+            "isFav": false,
+            "inCart": false
+        }
+    ]
+}

@@ -17,6 +17,7 @@ import {MatBadgeModule} from '@angular/material/badge';
 import { ProductListComponent } from './product-list/product-list.component';
 import { FavoriteDirective } from './favorite.directive';
 import { CakeItemDetailsComponent } from './cake-item-details/cake-item-details.component';
+import { OnInit } from '@angular/core';
 @NgModule({
   declarations: [
     AppComponent,
@@ -46,5 +47,6 @@ export class AppModule {
   
 
 }
+
 
 
