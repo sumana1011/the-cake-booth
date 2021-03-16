@@ -1,17 +1,14 @@
-import { Component } from '@angular/core';
-
+import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'header-component',
+  templateUrl: './header-component.component.html',
+  styleUrls: ['./header-component.component.css']
 })
+export class HeaderComponentComponent implements OnInit {
 
-export class AppComponent {
- 
-
-  title = 'cake-shop-app';
-  
+  constructor() { }
+    
   OnSignUp() {
     console.log('Sign up successful!');
     var blank = '';
@@ -37,8 +34,13 @@ export class AppComponent {
     })
     
   }
+
+
+
+
+  ngOnInit(): void {
+  }
+
 }
-
-
 export class NgbdDropdownForm {
 }

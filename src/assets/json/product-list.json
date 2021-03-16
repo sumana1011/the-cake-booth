@@ -1,9 +1,9 @@
 
 {
-    "itemDetails": [
+    "cakesList": [
         {
             "pid": 1,
-            "image": "assets/images/Honey_cake.jpg",
+            "image": "assets/images/Honey_cake2.jpg",
             "name": "Honey Cake",
             "price": "Euro 25.99",
             "isFav": false,
@@ -11,7 +11,7 @@
         },
         {
             "pid": 2,
-            "image": "assets/images/Pinacolada_Cake.jpg",
+            "image": "assets/images/Pinacolada_Cake2.jpg",
             "name": "Pinacolada cake",
             "price": "Euro 25.99",
             "isFav": false,
@@ -19,7 +19,7 @@
         },
         {
             "pid": 3,
-            "image": "assets/images/Rainbow_Cake.jpg",
+            "image": "assets/images/Rainbow_Cake2.jpg",
             "name": "Rainbow Cake",
             "price": "Euro 25.99",
             "isFav": false,
@@ -30,7 +30,7 @@
             "image": "assets/images/Maracuja_Cake.jpg",
             "name": "Maracuja cake",
             "price": "Euro 25.99",
-            "isFav": false,
+            "isFav": true,
             "inCart": true
         },
         {
@@ -38,7 +38,7 @@
             "image": "assets/images/Vanilla_Cake.jpg",
             "name": "Vanilla cake",
             "price": "Euro 25.99",
-            "isFav": false,
+            "isFav": true,
             "inCart": false
         },
         {
@@ -46,16 +46,75 @@
             "image": "assets/images/Choco_Hazelnut_Cake.jpg",
             "name": "Chocolate Hazelnut Cake",
             "price": "Euro 25.99",
-            "isFav": false,
-            "inCart": false
-        },
-        {
-            "pid": 7,
-            "image": "assets/images/blueberry_muffins.jpeg",
-            "name": "Blueberry Oatmeal cake",
-            "price": "Euro 25.99",
-            "isFav": false,
+            "isFav": true,
             "inCart": false
         }
-    ]
+    ],
+    "cupcakeList" :[
+        {
+          "pid": 7,
+          "image": "assets/images/blueberry_muffins2.jpeg",
+          "name": "Blueberry Oatmeal",
+          "price": "Euro 25.99",
+          "newPrice": null,
+          "isFav": false,
+          "inCart": false
+        },
+        {
+          "pid": 8,
+          "image": "assets/images/Double_chocolate_cupcake.jpg",
+          "name": "Double Chocolate",
+          "price": "Euro 25.99",
+          "newPrice": null,
+          "isFav": false,
+          "inCart": false
+        },
+        {
+          "pid": 9,
+          "image": "assets/images/key_lime.jpg",
+          "name": "Key Lime",
+          "price": "Euro 25.99",
+          "newPrice": null,
+          "isFav": false,
+          "inCart": false
+        },
+        {
+          "pid": 10,
+          "image": "assets/images/Berry_rush.jpg",
+          "name": "Berry Rush",
+          "price": "Euro 25.99",
+          "newPrice": null,
+          "isFav": false,
+          "inCart": false
+        },
+        {
+          "pid": 11,
+          "image": "assets/images/Mocha_Caramel.jpg",
+          "name": "Mocha Caramel",
+          "price": "Euro 25.99",
+          "newPrice": null,
+          "isFav": false,
+          "inCart": false
+        },
+        {
+          "pid": 12,
+          "image": "assets/images/Red_velvet_cupcake.jpg",
+          "name": "Red velvet",
+          "price": "Euro 25.99",
+          "newPrice": null,
+          "isFav": false,
+          "inCart": false
+        }
+      ],
+      "weeklySaleItem":[
+        {
+          "pid": 8,
+          "image": "assets/images/Double_chocolate_cupcake.jpg",
+          "name": "Double Chocolate Cupcake",
+          "price": "Euro 20.99",
+          "newPrice": "Euro 8.99",
+          "isFav": false,
+          "inCart": false
+        }
+      ]
 }

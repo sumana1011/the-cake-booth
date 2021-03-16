@@ -8,10 +8,11 @@
 <div>
     <figure><a><img class="img-responsive center-block" src= {{itemDetails.image}} ></a></figure>
     <figcaption class="item-name">{{itemDetails.name}}</figcaption>
-    <h4 id="price">{{itemDetails.price}}</h4>
+    <h4 id="price" *ngIf="!itemDetails.newPrice">{{itemDetails.price}}</h4>
+    <h4 *ngIf="itemDetails.newPrice"><s id="strikeText">{{itemDetails.price}}</s><h4 id="newPrice">{{itemDetails.newPrice}} Only!!</h4></h4>
 </div>
 <div class="tools">
-        
+
         <svg  [markFav]="itemDetails.isFav" (click)="addFav()" id="favItem"  data-updateBadge-click="ON" class="favorite"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
                 matTooltip="Add to Wishlist">
                 <path

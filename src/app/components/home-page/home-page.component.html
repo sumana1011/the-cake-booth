@@ -1,0 +1,28 @@
+<ngb-carousel #carousel [interval]="1000" [pauseOnHover]="pauseOnHover" [pauseOnFocus]="pauseOnFocus" (slide)="onSlide($event)" >
+    <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+          <img src="assets/images/frohe_ostern.jpg" alt="Random second slide">
+        </div>
+        <div class="carousel-caption">
+          
+        </div>
+      </ng-template>    
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img src="assets/images/Easter_Sale.jpeg" alt="Random second slide">
+      </div>
+      <div class="carousel-caption" id="sale-caption">
+        <h3 id="sale-text">Easter SALE!!</h3>
+        <h4 id="sale-percent">Upto 80% OFF!!</h4>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img src="assets/images/Easter-Cupcakes-2.jpg" alt="Random third slide">
+      </div>
+      <div class="carousel-caption" id="sale-caption">
+        <h3 id="easter-cupcake">Easter Special Cupcakes!</h3>
+        <h4 id="easter-cc-order">Order Now!</h4>
+      </div>
+    </ng-template>
+  </ngb-carousel>

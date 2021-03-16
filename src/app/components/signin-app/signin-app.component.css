@@ -3,7 +3,7 @@
     padding:10px 16px 16px 16px;
 } */
 #SuccessMessageDiv{
-    background-color: transparent;
+    background-color:unset;
     color:rgb(174, 166, 224);
     font-size:50px ;
     line-break: auto;
@@ -54,4 +54,6 @@ input[type="checkbox"],[type="radio"]{
     width:0px;
     margin-top:0px;
 }
-
+main{
+    background-color: transparent;
+}
